@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+body {
+    font-family: "Alata", sans-serif;
+}
+.container {
+    width: 85%;
+    margin:  auto;
+}
+
+.item {
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 6%;
+}
+
+.item p {
+   color: gray; 
+}
