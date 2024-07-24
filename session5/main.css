@@ -1,0 +1,81 @@
+/* .box {
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+    background: goldenrod;
+    overflow: visible;
+} */
+/* 
+
+.first {
+    width: 300px;
+    height: 300px;
+    background: green;
+    margin: 100px auto;
+}
+
+.first:hover .child{
+    background: rgba(128, 128, 128, 0.494);
+    width: 400px;
+    height: 400px;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    transition: 1s;
+} */
+
+
+
+/* .box {
+    width: 100px;
+    height: 100px;
+    background: goldenrod;
+    margin: 100px auto;
+    transition: 1s;
+} */
+
+
+
+/* .box:hover { */
+    /* transform: rotate(360deg); */
+    /* transform: skew(-20deg,-20deg); */
+    /* transform: scale(0.5,0.5); */
+    /* transform: translate(-100px,-100px); */
+    /* transform:matrix(-1.83,-0.87,-0.19,-1.33,13,0); */
+
+    /* transform: rotate(200deg) skew(50deg) scale(2,2) translate(200px); */
+
+    /* rotate: 300deg;
+    scale: 2 2;
+    translate: 100px; */
+/* } */
+
+
+
+.container {
+    width: 90%;
+    height: 300px;
+    margin: auto;
+}
+
+
+.room {
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin-left: 4%;
+    overflow: hidden;
+}
+
+.room:hover img {
+    scale: 1.2 1.2;
+}
+
+.room img {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
