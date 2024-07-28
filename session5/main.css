@@ -151,12 +151,12 @@ body {
 
 
 .mobile {
-    width: 400px;
-    height: 400px;
-    background: red;
     margin: 100px auto;
     overflow: hidden;
     position: relative;
+    width: 400px;
+    height: 400px;
+    background: red;
 }
 .mobile:hover img {
     transform: scale(1,1);
