@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-.main-section {
+/* .main-section {
     overflow: hidden;
     width: 100%;
     height: 100vh;
@@ -91,4 +91,86 @@
     background: white;
     color: black;
     cursor: pointer;
+} */
+
+/* body {
+    height: 1000px;
+} */
+/* 
+.gray {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+}
+
+
+.blue {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+}
+
+
+.yellow {
+    width:300px;
+    height: 300px;
+    background: yellow;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+} */
+
+
+/* .animation {
+    width: 300px;
+    height: 300px;
+    background: blue;
+    margin: 100px auto;
+    animation: move 1s infinite;
+}
+
+
+@keyframes move {
+    10% {background: red;scale: 2 2;}
+    30% {background: gray;rotate: 360deg;}
+    50% {background: yellow;rotate: -360deg;}
+    70% {background: green;transform: skew(50deg);}
+    90% {background: pink;transform: translate(100px,100px);}
+    100% {background: black;scale: 0.5 0.5;}
+} */
+
+
+.rounded {
+    width: 20px;
+    height: 35px;
+    margin: 100px auto;
+    border-radius: 30%;
+    border: 1px solid black;
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: black;
+    transform: translate(-50%);
+    animation: topandbottom 2s infinite;
+}
+
+@keyframes topandbottom {
+    from {top:20%;}
+    to {top:70%;opacity: 0;}
 }
