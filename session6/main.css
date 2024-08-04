@@ -149,7 +149,7 @@
 } */
 
 
-.rounded {
+/* .rounded {
     width: 20px;
     height: 35px;
     margin: 100px auto;
@@ -173,4 +173,22 @@
 @keyframes topandbottom {
     from {top:20%;}
     to {top:70%;opacity: 0;}
+} */
+
+
+
+/* .typing {
+    overflow: hidden;
+    text-wrap: nowrap;
+    width: 0;
+    height: 70px;
+    margin: 100px auto;
+    font-size: 60px;
+    animation: typing 1s infinite;
+    border-right: 2px solid black;
 }
+
+@keyframes typing {
+    from {width: 0;}
+    to {width: 440px;}
+} */
