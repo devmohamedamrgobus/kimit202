@@ -1,0 +1,15 @@
+#blue {
+    width: 100%;
+    height: 40vh;
+    background: blue;   
+}
+
+#yellow {
+    width: 100%;
+    height: 40vh;
+    background: yellow
+}
+
+#update{
+    display: none;
+}
