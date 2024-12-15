@@ -64,3 +64,38 @@
 //         team.innerText = teamnumber++
 //     }
 // },100)
+
+
+// var imgs =[
+//     'img/room4.jpg.webp',
+//     'img/room3.jpg.webp',
+//     'img/room2.jpg.webp',
+//     'img/room1.jpg.webp'
+// ]
+
+// var slider = document.getElementById('slider')
+// var i = 0
+// window.setInterval(function () {
+//     console.log(i)
+//     if(imgs.length <= i){
+//         i =0
+//     }
+//     slider.src = imgs[i]
+//     i++
+// },1000)
+
+
+// window.onload = function () {
+
+// }
+
+
+var loader = document.querySelector('.loader')
+setTimeout(function(){
+    loader.classList.add('fadeout')
+},1000)
+
+
+// window.onload = function () {
+//     loader.classList.add('fadeout')
+// }
